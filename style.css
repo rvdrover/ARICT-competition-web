@@ -1,0 +1,313 @@
+html,body
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	text-align: center;
+       scroll-behavior: smooth;
+}
+
+section 
+{
+	min-height: 100%;
+}
+
+li
+{
+	list-style-type: none;
+}
+
+h1
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #21385b; 
+	text-transform: uppercase;	
+}
+
+h2
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #21385b; 
+	text-transform: uppercase;
+	padding-top: 5%;
+	margin-bottom: 6px;
+
+}
+
+h3
+{
+	font-family: 'Roboto', sans-serif;
+	color: #446eac;
+	font-size: 15px;
+}
+
+a
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: white; 
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+p
+{
+	font-family: 'Roboto', sans-serif; 
+	color: #231f20;
+}
+
+hr
+{
+	width:50px;
+	height: 2px;
+	background: #546276;
+	border: 0;
+	margin: 0 auto 40px  auto;
+}
+
+.member, .logo ,.button ,li,img
+{
+	transition: all 300ms;
+}
+
+/*Header*/
+
+header
+{
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #446eac;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	z-index: 1;
+
+}
+
+.logo
+{
+	width: 130px;
+	float: left;
+	margin: 3px 0 0 20px;
+
+}
+
+.logo img
+{
+	width: 100%;
+
+
+}
+
+.logo:hover
+{
+	transform: scale(1.2);
+}
+
+header nav
+{
+	float: right;
+	margin: 10px 50px 0 0;
+
+}
+
+header nav ul li
+{
+	float: left;
+	margin-right: 30px;
+
+}
+
+header nav ul li:hover
+{
+	padding-top: 4px;
+	transform:scale(1.1);
+}
+
+/*Home*/
+
+#home
+{
+	background: url(images/home_image.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 10%;
+
+}
+
+#home h1
+{
+	font-size: 150px;
+	background: rgba(255,255,255,.6);
+}
+
+#home a img
+{
+	width: 50px;
+	border-radius: 50%;
+	padding: 10px;
+	background: #21385b;
+}
+
+#home a img:hover
+{
+	padding:20px;
+}
+
+/*About*/
+
+#about p
+{
+	width:1000px;
+	margin: 0 auto 0 auto;
+}
+
+/*Events*/
+
+.event
+{
+	width:1050px;
+	margin: 0 auto 0 auto;
+
+}
+
+.event ul
+{
+	padding: 0;
+
+}
+
+.event img
+{
+	width: 500px;
+	height: 250px;
+}
+
+.event ul li
+{
+	width: 50%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.event img:hover
+{
+	transform: scale(1.2);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 1);
+}
+
+/*Team*/
+
+.team
+{
+	width: 1220px;
+	margin: 0 auto 0 auto;
+}
+
+.member
+{
+	float: left;
+	width:180px;
+	height: 280px;
+	margin: 10px;
+	margin-top: 20px;
+	opacity: .8;
+	cursor: pointer;
+	border: 2px solid #21385b;
+	padding-bottom: 25px;
+}
+
+.member img
+{
+	width: 100%;
+
+}
+
+.member:hover
+{
+	transform: scale(1.2);
+	opacity: 100%;
+	box-shadow: 0 5px 5px rgba(0,0,0,1);
+}
+
+.s-m img
+{
+	width: 18%;
+}
+.s-m img:hover
+{
+	opacity: .7;
+}
+
+/*Contact*/
+
+form input, textarea
+{
+	font-family: "Roboto",sans-serif;
+	font-size: 15px;
+	margin-bottom: 10px;
+	border-radius: 2px;
+	border:2px solid;
+	border-color: #21385b;
+
+}
+
+form textarea
+{
+	width: 550px;
+	height: 200px;
+	resize:none;
+}
+
+form input
+{
+	width: 550px;
+	height: 40px;
+}
+
+.text
+{
+	color: #21385b; 
+	padding-left: 10px;
+
+}
+
+form input:first-child
+{
+	margin-top: 10px;
+}
+
+.button
+{
+	width: 565px;
+	height:50px;
+	font-size: 20px;
+	color: #21385b;
+}
+
+.button:hover
+{
+	background-color: #446eac;
+	color:#000000;
+
+}
+
+/*Footer*/
+
+footer
+{
+	width: 100%;
+	height: 80px;
+	background-color:#446eac; 
+}
+
+footer p
+{
+	font-size: 20px;
+	padding-top: 30px;
+	color: #231f20;
+}

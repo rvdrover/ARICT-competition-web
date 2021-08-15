@@ -1,0 +1,2 @@
+This site is  not a resposive
+Only CSS & HTML
